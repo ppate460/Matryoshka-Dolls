@@ -1,29 +1,25 @@
-/**------------------------------------------
+/*------------------------------------------
 
-    Program 1: Matryoshka Dolls
-        Prompt for the number of dolls and display
-        ASCII Matryoshka dolls in decending order
-        above each other.
+Program 1: Matryoshka Dolls
+Prompt for the number of dolls and display
+ASCII Matryoshka dolls in decending order
+above each other.
 
-    Course: CS 141, Spring 2022.
-    System: Windows using Visual Studio CMake
-    Author: Prof. Christopher Fulton
-    Student Name: Pratik Patel
-    Student ID: "669224629"
+Student Name: Pratik Patel
 
-    Original ASCII graphics gives:
-        ------------------------------------------
-             Happy New Year!  Welcome to:
-            ___      __     ___     ___
-               \    /  \       \       \
-               /   |    |      /       /
-              /    |    |     /       /
-             /     |    |    /       /
-            /____   \__/    /____   /____
+Original ASCII graphics gives:
+------------------------------------------
+     Happy New Year!  Welcome to:
+    ___      __     ___     ___
+       \    /  \       \       \
+       /   |    |      /       /
+      /    |    |     /       /
+     /     |    |    /       /
+    /____   \__/    /____   /____
 
-        ------------------------------------------
+------------------------------------------
 
- ---------------------------------------------*/
+---------------------------------------------*/
 
 #include <iostream>   // for cin and cout
 #include <iomanip>    // for setw. The number in setw(...) is the total of blank spaces including the printed item.
